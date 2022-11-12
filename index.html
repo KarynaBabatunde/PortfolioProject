@@ -20,6 +20,24 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -57,11 +75,18 @@
         <div class="col-lg-6 py-6 pb-0 pt-lg-o">
             <h2 class="text-primary mb-3">Hello, I'm</h2>
 <h1 class="typed-text-output d-inline">Karyna Babatunde</h1>
-        </div>
+   <span class="typed-cursor">|</span>   
+   <div class="typed-text d-none">Karyna Babatunde
+
+   </div>  
+</div>
 
     </div>
 
 </div>
       </div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
