@@ -6,26 +6,19 @@
 }
 
 
-.my-6 {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-}
-
-.py-6 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
-
-
 #home {
     margin-bottom: 10rem;
 }
 
 
-#myPic {border-radius: 98%;
+#myPic {border-radius: 88%;
+    
 max-width: 50%;
 }
 .ua-flag {max-width: 7%;
 
+}
+
+.container {
+    margin-top: 100px;
 }
