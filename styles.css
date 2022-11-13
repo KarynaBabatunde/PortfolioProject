@@ -15,39 +15,17 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
-.navbar.fixed-top {
-    display: block;
-}
 
-.navbar .navbar-nav .nav-link {
-    padding: 20px 15px;
-    color: var(--dark);
-    font-size: 18px;
-    font-weight: 600;
-    outline: none;
-}
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
-}
-
-@media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
-        padding: 10px 0;
-    }
-}
 
 #home {
     margin-bottom: 10rem;
-    background: left top no-repeat;
 }
 
-.typed-cursor {
-    font-size: 30px;
-    color: var(--dark);
-}
 
 #myPic {border-radius: 98%;
 max-width: 50%;
+}
+.ua-flag {max-width: 7%;
+
 }
