@@ -8,12 +8,13 @@
 
 #home {
     margin-bottom: 10rem;
+    background-color: black;
 }
 
 
-#myPic {border-radius: 88%;
-    
+#myPic {  
 max-width: 50%;
+clip-path: circle();
 }
 .ua-flag {max-width: 7%;
 
