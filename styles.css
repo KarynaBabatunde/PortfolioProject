@@ -5,9 +5,18 @@
     --dark: #12141D;
 }
 
+
+.my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
 .navbar.fixed-top {
     display: block;
-    transition: .5s;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -27,6 +36,11 @@
     .navbar .navbar-nav .nav-link  {
         padding: 10px 0;
     }
+}
+
+#home {
+    margin-bottom: 10rem;
+    background: left top no-repeat;
 }
 
 .typed-cursor {

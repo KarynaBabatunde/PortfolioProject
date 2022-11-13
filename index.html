@@ -54,10 +54,9 @@
 <div class="container">
     <div class="row g-5 align-items-center">
         <div class="col-lg-6 py-6 pb-0 pt-lg-o">
-            <h2 class="text-primary mb-3">Hello, I'm</h2>
-<h1 class="typed-text-output d-inline">Karyna Babatunde</h1>
-   <span class="typed-cursor">|</span>   
-   <div class="typed-text d-none">Karyna Babatunde</div>  
+            <h2 class="text-primary mb-3"><span class="auto-type"></span></h2>
+<h1>Karyna Babatunde</h1>
+   <h3>Front End Developer from Trollhattan, Sweden</h3>    
    
 </div>
 <div class="col-lg-6">
@@ -69,26 +68,17 @@
       </div>
 
 <script src="app.js"></script>
-<script src="lib/typed/typed.min.js"></script>
+
 <script src="lib/wow/wow.min.js"></script>
-<style type="text/css" data-typed-js-css="true">
-    .typed-cursor{
-      opacity: 1;
-    }
-    .typed-cursor.typed-cursor--blink{
-      animation: typedjsBlink 0.7s infinite;
-      -webkit-animation: typedjsBlink 0.7s infinite;
-              animation: typedjsBlink 0.7s infinite;
-    }
-    @keyframes typedjsBlink{
-      50% { opacity: 0.0; }
-    }
-    @-webkit-keyframes typedjsBlink{
-      0% { opacity: 1; }
-      50% { opacity: 0.0; }
-      100% { opacity: 1; }
-    }
-  </style>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Hello, I'm"],
+        typeSpeed: 200,
+        backSpeed: 200,
+        loop: true
+    })
+</script>
 
 </body>
 </html>
