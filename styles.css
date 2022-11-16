@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200&display=swap');
+
 :root {
     --primary: #6244C5;
     --secondary: #FFC448;
@@ -5,21 +7,21 @@
     --dark: #12141D;
 }
 
-
 #home {
     margin-bottom: 10rem;
-    background-color: black;
 }
 
 
-#myPic {  
-max-width: 50%;
-clip-path: circle();
+#myPic {
+width: 300px;
+
 }
 .ua-flag {max-width: 7%;
-
+}
+.my-6 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.container {
-    margin-top: 100px;
-}
