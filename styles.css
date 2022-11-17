@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 :root {
     --primary: #6244C5;
@@ -9,14 +11,15 @@
 
 #home {
     margin-bottom: 10rem;
+
+}
+
+#myPic {width: 50%;
+border-radius: 70%;
 }
 
 
-#myPic {
-width: 300px;
-border-radius: 88%;
 
-}
 .ua-flag {max-width: 7%;
 }
 .my-6 {
@@ -25,6 +28,4 @@ border-radius: 88%;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-#logo {size-adjust: 20%;
 
-}
