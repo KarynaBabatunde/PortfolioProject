@@ -14,6 +14,7 @@
 
 #myPic {
 width: 300px;
+border-radius: 88%;
 
 }
 .ua-flag {max-width: 7%;
@@ -24,4 +25,6 @@ width: 300px;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+#logo {size-adjust: 20%;
 
+}
