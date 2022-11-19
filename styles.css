@@ -4,18 +4,25 @@ body {
 
 :root {
     --primary: #6244C5;
-    --secondary: #FFC448;
-    --light: #FAFAFB;
-    --dark: #12141D;
+    --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    
+}
 #home {
     margin-bottom: 10rem;
-
+    
+   
 }
 
-#myPic {width: 50%;
-border-radius: 70%;
+#myPic {width: 250px;
+    border-radius: 50%;
+    
 }
 
 
@@ -23,9 +30,17 @@ border-radius: 70%;
 .ua-flag {max-width: 7%;
 }
 .my-6 {
-    margin-top: 4rem;
+    margin-top: 10rem;
     margin-bottom: 4rem;
-    padding-top: 4rem;
+    padding-top: 10rem;
     padding-bottom: 4rem;
 }
 
+.btn-branding {
+    background: var(--primary);
+    border-radius: 4px;
+color: white;
+font-size: 18px;
+line-height: 27px;
+padding: 15px 30px;
+}
